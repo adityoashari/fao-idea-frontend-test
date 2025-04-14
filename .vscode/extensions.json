@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "ms-vscode.vscode-typescript-next",
+    "orta.vscode-jest",
+    "ritwickdey.liveserver",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "eamodio.gitlens",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens"
+  ]
+}
