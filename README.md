@@ -1,6 +1,6 @@
 # FAO Frontend IDEA Test
 
-This repository contains the frontend implementation for the FAO IDEA Frontend test project.
+This repository contains the frontend implementation for the FAO IDEA Frontend test project. Visit the live site here: [https://fao-idea-frontend-test.pages.dev/](https://fao-idea-frontend-test.pages.dev/)
 
 ## Prerequisites
 
