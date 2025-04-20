@@ -1,5 +1,13 @@
-export const fetchUsers = async () => {
-  const response = await fetch("https://jsonplaceholder.typicode.com/users");
+/**
+ * Api service to fetch data from the cat breeds API
+ * @param limit number of items to fetch
+ * @param page page number to fetch
+ * @returns
+ */
+export const fetchCatBreeds = async (limit = 15, page = 1) => {
+  const response = await fetch(
+    `https://catfact.ninja/breeds?limit=${limit}&page=${page}`
+  );
 
   if (!response.ok) {
     throw new Error("Failed to fetch users");
@@ -8,8 +16,16 @@ export const fetchUsers = async () => {
   return response.json();
 };
 
-export const fetchPosts = async () => {
-  const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+/**
+ * Api service to fetch data from the cat facts API
+ * @param limit number of items to fetch
+ * @param page page number to fetch
+ * @returns
+ */
+export const fetchCatFacts = async (limit = 15, page = 1) => {
+  const response = await fetch(
+    `https://catfact.ninja/facts?limit=${limit}&page=${page}`
+  );
 
   if (!response.ok) {
     throw new Error("Failed to fetch posts");
